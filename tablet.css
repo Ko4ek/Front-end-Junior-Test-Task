@@ -1,0 +1,111 @@
+@media (min-width: 768px) {
+
+    
+      
+    
+    .search {
+        position: initial;
+        width: 344px;
+        border: 1px solid #BBC4D6;
+        border-radius: 5px; 
+    }
+    
+    .search-input {
+        background-repeat: no-repeat;
+        background-position-y: center;
+        width: 98%;
+        height: 40px;
+        border: none;
+        outline: none;
+        padding-left: 30px;
+    }
+
+    .profile {
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+    .profile__avatar {
+        background-image: url("img/avatar.svg");
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+        margin-left: 10px;
+    }
+
+    .profile__name {
+        display: block;
+        color: #768298;   
+        font-family: 'Roboto';
+        font-size: 14px;
+    }
+
+    .partners__header {
+        margin-top: 70px;
+        
+    }
+
+    .partners-nameplate {
+        width: 229px;
+        height: 120px;
+        border: 1px solid #EBEBF1;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        margin-right: 20px;
+    }
+
+    .partners-item-3 {
+        margin-right: -20px;
+    }
+
+    .partners-list {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: flex-start;
+        max-width: 768px;
+        margin: 0;
+    }
+
+    .partners-nameplate_henkel {
+        background-image: url("img/henkel.png");
+        background-repeat: no-repeat; 
+    }
+    
+    .partners-nameplate_johndeere {
+        width: 183px;
+        height: 34px;
+    }
+    
+    .partners-nameplate_macdonalds {
+        width: 99px;
+        height: 74px;
+    }
+    
+    .partners-nameplate_ikea {
+        width: 175px;
+        height: 70px;
+    }
+    
+    .partners-nameplate_reebook {
+        width: 187px;
+        height: 38px;
+    }
+    
+    .partners-nameplate_nike {
+        width: 143px;
+        height: 74px;
+    }
+    
+    .partners-nameplate_caterpillar {
+        width: 196px;
+        height: 30px;
+    }
+  
+}

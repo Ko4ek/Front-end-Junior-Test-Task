@@ -1,0 +1,52 @@
+@media (min-width: 1440px) {
+    .header {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
+    .search {
+        position: initial;
+        width: 768px;
+        border: 1px solid #BBC4D6;
+        border-radius: 5px; 
+    }
+
+    .profile__name {
+        font-size: 14px;
+    }
+
+    .main {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
+    .partners__header {
+        font-size: 36px;
+    }
+
+    .partners-nameplate {
+       width: 270px;
+       height: 120px;
+       margin-right: 20px;
+    }
+
+    .partners-nameplate:hover {
+        cursor: url("img/cursor.svg"), pointer;
+        box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);
+    }
+
+    .partners-nameplate:focus {
+        box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);  
+    }
+
+    .partners-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        max-width: 1170px;
+    }
+
+    .partners-item-4 {
+     margin-right: -20px;  
+    }
+}
